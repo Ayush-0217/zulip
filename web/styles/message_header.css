@@ -324,6 +324,17 @@
     }
 }
 
+.message-header-contents {
+    overflow: visible;
+    padding-right: 4px;
+}
+
+.recipient_row_date:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-text-message-header);
+    border-radius: 7px;
+}
+
 .recipient_bar_icon {
     color: var(--color-message-header-icon-interactive);
     opacity: 0.2;
